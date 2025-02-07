@@ -37,10 +37,10 @@ namespace EventSystem
         }
     }
 
-    public class SubscriptionList : IEnumerable<KeyValuePair<GameEventBase, Delegate>>
+    public class SubscriptionList : IEnumerable<KeyValuePair<IGameEvent, Delegate>>
     {
-        private Dictionary<GameEventBase, Delegate> subscriptions = new Dictionary<GameEventBase, Delegate>();
-        public IEnumerator<KeyValuePair<GameEventBase, Delegate>> GetEnumerator()
+        private Dictionary<IGameEvent, Delegate> subscriptions = new Dictionary<IGameEvent, Delegate>();
+        public IEnumerator<KeyValuePair<IGameEvent, Delegate>> GetEnumerator()
         {
             return subscriptions.GetEnumerator();
         }
@@ -50,11 +50,11 @@ namespace EventSystem
             return GetEnumerator();
         }
 
-        public void Add(GameEventBase _event, UnityAction action)
+        public void Add(IGameEvent _event, UnityAction action)
         {
             subscriptions[_event] = action;
         }
-        public void Add<T>(GameEventBase _event, UnityAction<T> action)
+        public void Add<T>(IGameEvent _event, UnityAction<T> action)
         {
             subscriptions[_event] = action;
         }

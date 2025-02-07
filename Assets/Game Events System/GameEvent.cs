@@ -3,32 +3,73 @@ using UnityEngine.Events;
 
 namespace EventSystem
 {
-    public interface GameEventBase
+    /// <summary>
+    /// Interface for game events.
+    /// </summary>
+    public interface IGameEvent
     {
+        /// <summary>
+        /// Adds a delegate to the event list.
+        /// </summary>
+        /// <param name="action">The delegate to add.</param>
         public void Add(Delegate action);
+
+        /// <summary>
+        /// Removes a delegate from the event list.
+        /// </summary>
+        /// <param name="action">The delegate to remove.</param>
         public void Remove(Delegate action);
+        
+        /// <summary>
+        /// Invokes the event.
+        /// </summary>
         public void Invoke();
     }
-    /* 
-     * Wrapper class for a default UnityAction event to
-     * provide a unified interface for the generic version
-     */
-    public class GameEvent : GameEventBase
+    
+    /// <summary>
+    /// Game event with no parameters.
+    /// </summary>
+    public class GameEvent : IGameEvent
     {
+        /// <summary>
+        /// The event.
+        /// </summary>
         private UnityAction Event;
+
+        /// <summary>
+        /// Adds a delegate to the event list.
+        /// </summary>
+        /// <param name="action">The delegate to add.</param>
         public void Add(UnityAction action)
         {
             Event += action;
         }
+
+        /// <summary>
+        /// Adds a delegate to the event list.
+        /// </summary>
+        /// <param name="action">The delegate to add.</param>
         public void Add(Delegate action)
         {
             if (action is UnityAction unityAction)
+            {
                 Event += unityAction;
+            }
         }
+
+        /// <summary>
+        /// Removes a delegate from the event list.
+        /// </summary>
+        /// <param name="action">The delegate to remove.</param>
         public void Remove(UnityAction action)
         {
             Event -= action;
         }
+
+        /// <summary>
+        /// Removes a delegate from event list.
+        /// </summary>
+        /// <param name="action">The delegate to remove.</param>
         public void Remove(Delegate action)
         {
             if (action is UnityAction unityAction)
@@ -37,6 +78,9 @@ namespace EventSystem
             }
         }
 
+        /// <summary>
+        /// Invokes the event.
+        /// </summary>
         public void Invoke()
         {
             Event?.Invoke();
@@ -51,32 +95,53 @@ namespace EventSystem
      * 
      * Example: Which is immediately more clear?
      * 
-     * 1. CuddleStarted?.Invoke(true, 8, "Tomorrow"); 
+     * 1. FireStarted?.Invoke(true, 8, "Bang!"); 
      * 
      *         -- or --
      * 
-     * 2. struct CuddleData
+     * 2. struct FireData
      *    {
-     *       public bool holdHands;
-     *       public float duration;
-     *       public string subtitle;
+     *       public bool immediate;
+     *       public float burstCount;
+     *       public string caption;
      *    }
      * 
-     *    CuddleStarted?.Invoke(cuddleData);
+     *    FireStarted?.Invoke(FireData);
      *    
      * Clearly, option 2 gives much more detail as to the 
      * purpose of the parameters. This is exactly the same for 
      * all number of parameters INCLUDING 1.
      */
-    public class GameEvent<T> : GameEventBase
+
+    /// <summary>
+    /// Game event with one parameter.
+    /// </summary>
+    /// <typeparam name="T">The type of the parameter to pass in.</typeparam>
+    public class GameEvent<T> : IGameEvent
     {
+        /// <summary>
+        /// The event.
+        /// </summary>
         private UnityAction<T> Event;
+        
+        /// <summary>
+        /// The value of the most recent parameter this event was invoked with.
+        /// </summary>
         public T Latest;
 
+        /// <summary>
+        /// Adds a delegate to event list.
+        /// </summary>
+        /// <param name="action">The delegate to add.</param>
         public void Add(UnityAction<T> action)
         {
             Event += action;
         }
+
+        /// <summary>
+        /// Adds a delegate to the event list.
+        /// </summary>
+        /// <param name="action">The delegate to add.</param>
         public void Add(Delegate action)
         {
             if (action is UnityAction<T> unityAction)
@@ -84,10 +149,20 @@ namespace EventSystem
                 Event += unityAction;
             }
         }
+
+        /// <summary>
+        /// Removes a delegate from the event list.
+        /// </summary>
+        /// <param name="action">The delegate to remove.</param>
         public void Remove(UnityAction<T> action)
         {
             Event -= action;
         }
+
+        /// <summary>
+        /// Remove a delegate from the event list.
+        /// </summary>
+        /// <param name="action">The delegate to remove.</param>
         public void Remove(Delegate action)
         {
             if (action is UnityAction<T> unityAction)
@@ -95,9 +170,11 @@ namespace EventSystem
                 Event -= unityAction;
             }
         }
+        
         /// <summary>
-        /// Invoke while passing the value of arg and update latest to reflect this value
+        /// Invokes the event
         /// </summary>
+        /// <param name="arg">The arg to pass to event listeners.</param>
         public void Invoke(T arg)
         {
             Latest = arg;
