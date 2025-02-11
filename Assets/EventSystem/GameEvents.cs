@@ -24,11 +24,16 @@ public class GameEvents : MonoBehaviour
      * instance as a public field in this GameEvents class so that it is accessible from the 
      * singleton instance.
      * 
-     * public class InputEventsContainer()
+     * public class InputEventsContainer
      * {
-     *     public GameEvent Jump = new();
+     *     public GameEvent<Vector2> Move = new();
      * }
      * 
-     * public InputEventsContainer InputEvents { get; private set; } = new InputEvents();
+     * public InputEventsContainer InputEvents { get; private set; } = new InputEventsContainer();
+     * 
+     * You can subscribe from anywhere in the project in the following ways:
+     * 
+     * 1.    GameEvents.Instance.InputEvents.Move.AddListener(OnMove);
+     * 2.    GameEvents.Instance.InputEvents.Move.Event += OnMove;
      */
 }

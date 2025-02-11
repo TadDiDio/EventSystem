@@ -34,7 +34,7 @@ namespace EventSystem
         /// <summary>
         /// The event.
         /// </summary>
-        private UnityAction Event;
+        public UnityAction Event;
 
         /// <summary>
         /// Adds a delegate to the event list.
@@ -122,18 +122,18 @@ namespace EventSystem
         /// <summary>
         /// The event.
         /// </summary>
-        private UnityAction<T> Event;
+        public UnityAction<T> Event;
         
         /// <summary>
         /// The value of the most recent parameter this event was invoked with.
         /// </summary>
-        public T Latest;
+        public T Latest { get; private set; }
 
         /// <summary>
         /// Adds a delegate to event list.
         /// </summary>
         /// <param name="action">The delegate to add.</param>
-        public void Add(UnityAction<T> action)
+        public void AddListener(UnityAction<T> action)
         {
             Event += action;
         }
@@ -154,7 +154,7 @@ namespace EventSystem
         /// Removes a delegate from the event list.
         /// </summary>
         /// <param name="action">The delegate to remove.</param>
-        public void Remove(UnityAction<T> action)
+        public void RemoveListener(UnityAction<T> action)
         {
             Event -= action;
         }
