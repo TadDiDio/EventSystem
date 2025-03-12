@@ -14,8 +14,8 @@ public class GameEvents : MonoBehaviour
             Destroy(this);
             return;
         }
-        else Instance = this;
-
+        
+        Instance = this;
         DontDestroyOnLoad(gameObject);
     }
 
