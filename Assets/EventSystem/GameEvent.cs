@@ -93,21 +93,22 @@ namespace EventSystem
      * types whose intent is more clear than that of their 
      * primative counterparts.
      * 
-     * Example: Which is immediately more clear?
+     * Example: Which is immediately more clear for the following event?
      * 
-     * 1. FireStarted?.Invoke(true, 8, "Bang!"); 
+     * 1. GameEvent<uint, int, bool, string> PlayerConnected;
      * 
      *         -- or --
      * 
-     * 2. struct FireData
+     * 2. struct PlayerConnectionData
      *    {
-     *       public bool immediate;
-     *       public float burstCount;
-     *       public string caption;
+     *       public uint clientId,
+     *       public int serverTick;
+     *       public bool asHost;
+     *       public string username;
      *    }
-     * 
-     *    FireStarted?.Invoke(FireData);
-     *    
+     *
+     *    GameEvent<PlayerConnectionData> PlayerConnected;
+     *
      * Clearly, option 2 gives much more detail as to the 
      * purpose of the parameters. This is exactly the same for 
      * all number of parameters INCLUDING 1.
