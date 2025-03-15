@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.Events;
 
-namespace EventSystem
+namespace GameEvents
 {
     /// <summary>
     /// Interface for game events.
