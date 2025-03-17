@@ -9,8 +9,12 @@ namespace GameEvents
     /// </summary>
     public class Events
     {
+        #region SINGLETON
         private static Events _instance;
-    
+
+        // Delete the constructor to prevent duplicates
+        private Events() { }
+
         /// <summary>
         /// A singleton property giving access to all game events.
         /// </summary>
@@ -25,24 +29,16 @@ namespace GameEvents
             if (state == PlayModeStateChange.ExitingPlayMode) _instance = null;
         };
 #endif
-
+        #endregion
+        
+        #region INSTANCES
+        
         /*
-         * The expected use would be to define classes below as containers, then instantiate a single
-         * instance as a public field in this GameEvents class so that it is accessible from the
-         * singleton instance.
-         *
-         * public class InputEventsContainer
-         * {
-         *     public GameEvent<Vector2> Move = new();
-         * }
-         *
-         * public InputEventsContainer InputEvents { get; private set; } = new InputEventsContainer();
-         *
-         * You can subscribe from anywhere in the project in the following ways:
-         *
-         * 1.    Events.Instance.InputEvents.Move.AddListener(OnMove);
-         * 2.    Events.Instance.InputEvents.Move.Event += OnMove;
+         * Add all instances of container classes here to be accessed throughout the project.
+         * It's probably best to declare containers, types, and events in their own files within their
+         * namespaces.
          */
+        
+        #endregion
     }
-   
 }
