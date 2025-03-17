@@ -1,0 +1,38 @@
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\bin\Debug\netstandard2.0\EventSystemAnalyzers.deps.json
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\bin\Debug\netstandard2.0\EventSystemAnalyzers.dll
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\bin\Debug\netstandard2.0\EventSystemAnalyzers.pdb
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.csproj.AssemblyReference.cache
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.Resources.resources
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.csproj.GenerateResource.cache
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.AssemblyInfoInputs.cache
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.AssemblyInfo.cs
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.csproj.CoreCompileInputs.cache
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.sourcelink.json
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.dll
+C:\Users\tadad\Documents\Unity Projects\Black Veil\Assets\Roslyn\EventSystemAnalyzers\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.pdb
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\bin\Debug\netstandard2.0\EventSystemAnalyzers.deps.json
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\bin\Debug\netstandard2.0\EventSystemAnalyzers.dll
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\bin\Debug\netstandard2.0\EventSystemAnalyzers.pdb
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.csproj.AssemblyReference.cache
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.Resources.resources
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.csproj.GenerateResource.cache
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.AssemblyInfoInputs.cache
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.AssemblyInfo.cs
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.csproj.CoreCompileInputs.cache
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.dll
+C:\Users\tadad\Desktop\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.pdb
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\bin\Debug\netstandard2.0\EventSystemAnalyzers.deps.json
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\bin\Debug\netstandard2.0\EventSystemAnalyzers.dll
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\bin\Debug\netstandard2.0\EventSystemAnalyzers.pdb
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.csproj.AssemblyReference.cache
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.Resources.resources
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.csproj.GenerateResource.cache
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.AssemblyInfoInputs.cache
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.AssemblyInfo.cs
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.csproj.CoreCompileInputs.cache
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.sourcelink.json
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.dll
+C:\Users\tadad\Documents\Unity Projects\EventSystemTest\Assets\EventSystem\Analyzers\EventSystemAnalyzers~\EventSystemAnalyzers\EventSystemAnalyzers\obj\Debug\netstandard2.0\EventSystemAnalyzers.pdb

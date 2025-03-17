@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers.Tests\\EventSystemAnalyzers.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers.Tests\\EventSystemAnalyzers.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers.Tests\\EventSystemAnalyzers.Tests.csproj",
+        "projectName": "EventSystemAnalyzers.Tests",
+        "projectPath": "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers.Tests\\EventSystemAnalyzers.Tests.csproj",
+        "packagesPath": "C:\\Users\\tadad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tadad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers\\EventSystemAnalyzers.csproj": {
+                "projectPath": "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers\\EventSystemAnalyzers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.XUnit": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.XUnit": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers\\EventSystemAnalyzers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers\\EventSystemAnalyzers.csproj",
+        "projectName": "EventSystemAnalyzers",
+        "projectPath": "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers\\EventSystemAnalyzers.csproj",
+        "packagesPath": "C:\\Users\\tadad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tadad\\Documents\\Unity Projects\\EventSystemTest\\Assets\\EventSystem\\Analyzers\\EventSystemAnalyzers~\\EventSystemAnalyzers\\EventSystemAnalyzers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tadad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.4, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

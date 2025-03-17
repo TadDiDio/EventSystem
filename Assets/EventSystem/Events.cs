@@ -38,7 +38,7 @@ namespace GameEvents
          * It's probably best to declare containers, types, and events in their own files within their
          * namespaces.
          */
-        
+
         #endregion
     }
 }
