@@ -37,6 +37,8 @@ namespace GameEvents
          * Add all instances of container classes here to be accessed throughout the project.
          * It's probably best to declare containers, types, and events in their own files within their
          * namespaces.
+         *
+         * Don't for get the {get; private set;} tags so that outsiders cannot redefine these instantiations.
          */
 
         #endregion
