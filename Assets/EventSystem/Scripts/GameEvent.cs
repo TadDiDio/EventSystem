@@ -12,13 +12,13 @@ namespace GameEvents
         /// Adds a delegate to the event list.
         /// </summary>
         /// <param name="action">The delegate to add.</param>
-        public void Add(Delegate action);
+        public void Subscribe(Delegate action);
 
         /// <summary>
         /// Removes a delegate from the event list.
         /// </summary>
         /// <param name="action">The delegate to remove.</param>
-        public void Remove(Delegate action);
+        public void Unsubscribe(Delegate action);
         
         /// <summary>
         /// Invokes the event.
@@ -40,7 +40,7 @@ namespace GameEvents
         /// Adds a delegate to the event list.
         /// </summary>
         /// <param name="action">The delegate to add.</param>
-        public void Add(UnityAction action)
+        public void Subscribe(UnityAction action)
         {
             Event += action;
         }
@@ -49,7 +49,7 @@ namespace GameEvents
         /// Adds a delegate to the event list.
         /// </summary>
         /// <param name="action">The delegate to add.</param>
-        public void Add(Delegate action)
+        public void Subscribe(Delegate action)
         {
             if (action is UnityAction unityAction)
             {
@@ -61,7 +61,7 @@ namespace GameEvents
         /// Removes a delegate from the event list.
         /// </summary>
         /// <param name="action">The delegate to remove.</param>
-        public void Remove(UnityAction action)
+        public void Unsubscribe(UnityAction action)
         {
             Event -= action;
         }
@@ -70,7 +70,7 @@ namespace GameEvents
         /// Removes a delegate from event list.
         /// </summary>
         /// <param name="action">The delegate to remove.</param>
-        public void Remove(Delegate action)
+        public void Unsubscribe(Delegate action)
         {
             if (action is UnityAction unityAction)
             {
@@ -134,7 +134,7 @@ namespace GameEvents
         /// Adds a delegate to event list.
         /// </summary>
         /// <param name="action">The delegate to add.</param>
-        public void AddListener(UnityAction<T> action)
+        public void Subscribe(UnityAction<T> action)
         {
             Event += action;
         }
@@ -143,7 +143,7 @@ namespace GameEvents
         /// Adds a delegate to the event list.
         /// </summary>
         /// <param name="action">The delegate to add.</param>
-        public void Add(Delegate action)
+        public void Subscribe(Delegate action)
         {
             if (action is UnityAction<T> unityAction)
             {
@@ -155,7 +155,7 @@ namespace GameEvents
         /// Removes a delegate from the event list.
         /// </summary>
         /// <param name="action">The delegate to remove.</param>
-        public void RemoveListener(UnityAction<T> action)
+        public void Unsubscribe(UnityAction<T> action)
         {
             Event -= action;
         }
@@ -164,7 +164,7 @@ namespace GameEvents
         /// Remove a delegate from the event list.
         /// </summary>
         /// <param name="action">The delegate to remove.</param>
-        public void Remove(Delegate action)
+        public void Unsubscribe(Delegate action)
         {
             if (action is UnityAction<T> unityAction)
             {
