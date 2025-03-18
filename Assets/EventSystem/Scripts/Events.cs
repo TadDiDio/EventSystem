@@ -38,7 +38,7 @@ namespace GameEvents
          * It's probably best to declare containers, types, and events in their own files within their
          * namespaces.
          *
-         * Make sure to make all events and containers readonly so that no one overwrites them.
+         * Make sure to make containers readonly so that no one overwrites them.
          */
 
         #endregion
