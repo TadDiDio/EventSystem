@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventSystemAnalyzers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83af89c70f3dad854ab48afee4bc632768ba2afa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5080acfe8283172ece284c14c9fcccd47a363fa4")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventSystemAnalyzers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventSystemAnalyzers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
